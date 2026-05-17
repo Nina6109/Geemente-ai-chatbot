@@ -32,4 +32,3 @@ export async function POST(req: Request) {
       content: "Er ging iets fout met de chatbot.",
     });
   }
-}
