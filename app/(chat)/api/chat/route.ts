@@ -26,7 +26,7 @@ export async function POST(req: Request) {
       role: "assistant",
       content: data.reply,
     });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json({
       role: "assistant",
       content: "Er ging iets fout met de chatbot.",
